@@ -1,0 +1,12 @@
+--salesman_id and salesman_city
+select  * from salesman;
+Select  salesman_id,salesman_city from salesman;
+
+select  salesman_id from salesman
+where salesman_city='Paris';
+
+salesman_id and commission of Paul Adam
+
+select salesman_id, commission
+from salesman
+where salesman_name='Paul Adam'

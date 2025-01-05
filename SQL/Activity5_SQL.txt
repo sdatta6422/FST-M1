@@ -1,0 +1,18 @@
+Alter table salesman add grade int;
+Update salesman set grade=100;
+
+select * from salesman;
+
+
+Update salesman
+set grade=200
+where salesman_city='Rome';
+
+
+UPDATE salesman SET grade=300 WHERE salesman_name='James Hoog';
+
+
+UPDATE salesman SET salesman_name='Pierre' WHERE salesman_name='McLyon';
+
+
+SELECT * FROM salesman;
